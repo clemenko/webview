@@ -10,7 +10,7 @@
 <script>
 window.setInterval("reloadIFrame();", 60000);
 function reloadIFrame() {
- document.frames["radar"].location.reload();
+ document.getElementById("radar").src=radar.src;
 }
 </script>
 </head>
